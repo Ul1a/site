@@ -8,14 +8,20 @@
     transition: 0.3s;
 }
 
+.card-img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
 /* Add some padding inside the card container */
 .container {
-    padding: 2px 16px;
+    padding: 5px 34px;
 }
 .card-content {
-    max-width: 92%;
-    margin: auto;
-	
+	padding: 15px 34px;
+    max-width: 100%;
+    margin: auto;	
 }
 
 .dotted {
@@ -24,6 +30,8 @@
   background-color:#fff;
   width:100%;
 }
+
+/* Аккордеон */
 
 .tab input, .tab-content { display: none; }
    .tab {
@@ -59,4 +67,24 @@
    }
    .tab label {
   font-size: 24px;
+}
+
+.button2 {
+    background-color: #7B68EE; 
+    border: none;
+	border-radius: 24px
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.gradient {
+    background: linear-gradient(to right, #ff3399 0%, #660066 100%);
+}
+
+footer {
+    color: gray;
+	font-size: 14px;
 }
